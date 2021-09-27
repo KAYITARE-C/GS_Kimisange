@@ -1,0 +1,197 @@
+/* nav backgroundcolor */
+#nav{
+    background-color:maroon;
+}
+
+/* phone number and icon color */
+.nav-item i{
+    color:mintcream;
+}
+/* adding padding btn text nav&navbar link */
+.nav-item{
+    padding: 0 10px 0 10px;
+    font-size:18px;
+}
+/* navbar background and border */
+#navbar{
+    background-color:rgb(3, 3, 44);
+    border-top:5px solid yellow;
+}
+/* changebrand name color */
+nav .navbar-brand{
+    color:mediumaquamarine !important;
+    
+}
+nav .navbar-brand:hover{
+    color:yellow !important;
+    
+}
+
+
+/* change navbar link color */
+nav .navbar-nav li .nav-link{
+    color:white !important;
+    background-color: transparent;
+}
+nav .navbar-nav li .nav-link:hover{
+    color: mediumaquamarine !important;
+    font-size:18px;
+    background-color: transparent !important;
+    }
+
+    /* change dropdown backgroundcolor */
+nav .navbar-nav > li > .dropdown-menu{
+    background-color: rgb(3, 3, 44);
+
+}
+/* change dropdownmenu color */
+.navbar-nav .dropdown-menu a{
+    color:mediumaquamarine;
+    background-color: transparent !important;
+}
+.navbar-nav .dropdown-menu a:hover{
+    background-color: transparent !important;
+    color:maroon;
+}
+
+/* display dropdown-menu when hover navbar text-link */
+.dropdown:hover>.dropdown-menu{
+    display:block;
+}
+/* for home */
+  #home{
+    width: 100% !important;
+    height: 100% !important;
+    margin-top:10px;
+    margin-bottom: 10px;
+   
+  }
+
+  /* card property */
+#leftCard .card{
+    border-radius: 0 !important;
+    box-shadow: 2px 2px 2px 3px gray;
+    width: 420px !important;
+    
+}
+#cardContacts, #cardGoogle{
+    border-radius: 0 !important;
+    box-shadow: 2px 2px 2px 3px gray;
+    width: 100% !important;
+    height:50%;
+
+}
+label{
+    font-size:18px !important;
+    font-weight: bold;
+}
+.form-row,.form-group{
+    margin-bottom:30px !important;
+}
+#cardGoogle{
+    margin-top:15px;
+}
+
+
+  /* margin for card text */
+  #cardText{
+      margin-top:10px;
+     
+     
+      
+  }
+  #cardText{
+      height:291px;
+  }
+  /* footer */
+.jumbotron{
+    background-color: #1C2331;
+    border-radius: 0 !important;
+}
+h5{
+    color:white !important;
+    font-weight: bold;
+    text-transform: uppercase;
+ /* margin:auto;
+    padding: auto; */
+    
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+/* about style */
+#about, #mission, #contact{
+   
+   
+    padding:100px 0;
+    
+}
+#about{
+    margin-bottom:60px !important;
+    
+    margin-top: 30px;
+}
+
+#about h1{
+    font-weight: bold;
+}
+
+#about p{
+    color:black;
+}
+/* mission card */
+#mission, #about{
+    width:100% !important;
+    height:100% !important;
+   
+}
+#mission .title{
+    color: maroon;
+    padding:3px;
+
+}
+#mission .card{
+    border-radius:0px;
+    border-left: 5px solid maroon;
+    box-shadow:  2px 2px 2px 3px gray;
+    padding:5px;
+}
+#mission .card:hover i, #mission .card:hover{
+    background-color: maroon;
+    color:white !important;
+}
+#mission h1, #contact h1{
+    margin-bottom:60px !important;
+    font-weight: bold;
+    margin-top: 30px;
+}
+#mission h2{
+    color:maroon;
+    font-weight: bold;
+}
+#missionp{
+    margin-top: 30px;
+    margin-bottom:60px !important;
+    color:black;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* contact side */
+
+#footerSection .col-md-3 .dropdown-divider{
+    width:60px;
+    border-color:yellow !important;
+    padding-bottom:20px;
+}
+#footerSection .col-md-3 p, .col-md-3 p a{
+    color:white !important; 
+    text-decoration:none;
+}
+#footer{
+    background-color: rgb(1, 1, 12);
+    
+}
+
+
